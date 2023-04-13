@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ApplyActivity">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="150dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/exclamation_mark_icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Student can get 4 leaves a month"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:textColor="#F3695F"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reason for absence"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#F3695F"
+        android:textSize="20dp"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+    <EditText
+        android:text="Reason for absence"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:background="@drawable/border"
+        android:layout_gravity="center"
+        android:padding="20dp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20dp"
+        android:backgroundTint="#F3695F"
+        android:layout_gravity="center"
+        android:id="@+id/btnsubmit"/>
+
+
+</LinearLayout>
